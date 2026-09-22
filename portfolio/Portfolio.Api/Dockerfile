@@ -1,13 +1,21 @@
-FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
+FROM mcr.microsoft.com/dotnet/sdk:10.0 AS build
+
 WORKDIR /src
 
 COPY ["Portfolio.Api.csproj", "./"]
+
 RUN dotnet restore "Portfolio.Api.csproj"
 
 COPY . .
-RUN dotnet publish "Portfolio.Api.csproj" -c Release -o /app/publish /p:UseAppHost=false
 
-FROM mcr.microsoft.com/dotnet/aspnet:8.0 AS final
+RUN dotnet publish "Portfolio.Api.csproj" \
+    -c Release \
+    -o /app/publish \
+    /p:UseAppHost=false
+
+
+FROM mcr.microsoft.com/dotnet/aspnet:10.0 AS final
+
 WORKDIR /app
 
 COPY --from=build /app/publish .
