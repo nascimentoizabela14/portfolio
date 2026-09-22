@@ -100,10 +100,10 @@ app.MapPost("/api/contact", async (
         configuration["Resend:ApiKey"];
 
     var destinationEmail =
-        "apolinario.izabela@gmail.com";
+      "apolinario.izabela@gmail.com";
 
     var fromEmail =
-        "onboarding@resend.dev";
+       "onboarding@resend.dev";
 
 
     if (string.IsNullOrWhiteSpace(resendApiKey))
