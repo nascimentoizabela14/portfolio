@@ -8,7 +8,7 @@ interface ProjectCardProps {
   description: string;
   stack: string[];
   impact: string;
-  slug: string;
+  slug?: string;
   className?: string;
 }
 
