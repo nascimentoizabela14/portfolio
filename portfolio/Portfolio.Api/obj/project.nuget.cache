@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "A2RXR4syg80=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\apoli\\OneDrive\\Área de Trabalho\\Porfolio\\portfolio\\Portfolio.Api\\Portfolio.Api.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\apoli\\.nuget\\packages\\bouncycastle.cryptography\\2.7.0\\bouncycastle.cryptography.2.7.0.nupkg.sha512",
+    "C:\\Users\\apoli\\.nuget\\packages\\mailkit\\4.18.0\\mailkit.4.18.0.nupkg.sha512",
+    "C:\\Users\\apoli\\.nuget\\packages\\microsoft.aspnetcore.openapi\\10.0.12\\microsoft.aspnetcore.openapi.10.0.12.nupkg.sha512",
+    "C:\\Users\\apoli\\.nuget\\packages\\microsoft.openapi\\2.12.0\\microsoft.openapi.2.12.0.nupkg.sha512",
+    "C:\\Users\\apoli\\.nuget\\packages\\mimekit\\4.18.0\\mimekit.4.18.0.nupkg.sha512",
+    "C:\\Users\\apoli\\.nuget\\packages\\system.security.cryptography.pkcs\\10.0.0\\system.security.cryptography.pkcs.10.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
