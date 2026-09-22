@@ -97,7 +97,7 @@ app.MapPost("/api/contact", async (
     // ====================================
 
     var resendApiKey =
-        configuration["Resend:ApiKey"];
+        configuration["ApiKey"];
 
     var destinationEmail =
       "apolinario.izabela@gmail.com";
